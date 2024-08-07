@@ -5,7 +5,7 @@ import { email1, password1,email2, password2 } from '../../test_data/loginData.j
 import { productPagelocators } from '../../locators/productPage';
 
 test.describe('Automating the assessment scenarios in automationexercise.com', () => {
-    test('Login to automationexercise.com',{ tag: '@login',}, async ({ page }) => {
+    test.beforeEach('Login to automationexercise.com', async ({ page }) => {
         const loginPage = new LoginPage(page);
         await loginPage.navigateToURL();
         await loginPage.clickLoginLink();

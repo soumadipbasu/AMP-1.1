@@ -6,7 +6,8 @@
   "scripts": {
     "webTest": "npx playwright test",
     "debugTest": "npx playwright test --debug ",
-    "signupTest": "npx playwright test --grep signup --project=webkit"
+    "safariSignupTest": "npx playwright test --grep signup --project=webkit",
+    "chromeSignupTest": "npx playwright test --grep signup --project=chromium"
   },
   "keywords": [],
   "author": "",
