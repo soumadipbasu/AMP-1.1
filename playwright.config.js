@@ -39,7 +39,7 @@ module.exports = defineConfig({
   projects: [
     {
       name: process.env.BROWSER,
-      use: { ...devices['Desktop Chrome'], headless: false,},
+      use: { ...devices['Desktop Chrome'], headless: true,},
     },
 
     // {
@@ -47,10 +47,10 @@ module.exports = defineConfig({
     //   use: { ...devices['Desktop Firefox'] },
     // },
 
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'], headless: false },
-    },
+    // {
+    //   name: 'webkit',
+    //   use: { ...devices['Desktop Safari'], headless: false },
+    // },
 
     /* Test against mobile viewports. */
     // {

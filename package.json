@@ -13,12 +13,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.44.1",
+    "@playwright/test": "^1.46.0",
     "@types/node": "^20.14.1",
     "allure-playwright": "^2.0.0",
     "dotenv": "^16.4.5"
   },
   "dependencies": {
-    "exceljs": "^4.4.0"
+    "exceljs": "^4.4.0",
+    "pixelmatch": "^6.0.0"
   }
 }
