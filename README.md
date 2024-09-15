@@ -31,8 +31,7 @@ The following is the structure of the framework:
 Before running the tests, ensure you have completed the following steps:
 
 - **Create a `.env` File**:
-   - Copy the sample environment configuration file data to create your own `.env` file.
-   ```sh
+   - Copy the sample environment configuration file data from `.env.sample` file and create a new `.env` file.
 - **Install Required Packages**: Included the `npm install` command to install all necessary dependencies.
 
 ## Test Run
