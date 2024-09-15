@@ -22,6 +22,7 @@ module.exports = defineConfig({
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [['html']],
+  timeout: 60000,
 
   testMatch: process.env.TEST,
   
@@ -39,7 +40,7 @@ module.exports = defineConfig({
   projects: [
     {
       name: process.env.BROWSER,
-      use: { ...devices['Desktop Chrome'], headless: true,},
+      use: { ...devices['Desktop Chrome'], headless: false,},
     },
 
     // {

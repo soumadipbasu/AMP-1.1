@@ -1,0 +1,14 @@
+{
+    "automation_url": "https://automationteststore.com/",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "johndoe123@yopmail.com",
+    "telephone": "9876987123",
+    "address": "123 Main St",
+    "city": "New York",
+    "zone": "3513",
+    "postCode": "12345",
+    "country": "223",
+    "total_amount": "$427.00",
+    "order_success_message": "Your order has been successfully processed!"
+}
